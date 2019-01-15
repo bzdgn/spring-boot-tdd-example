@@ -3,10 +3,12 @@ package com.levo.tdd.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.levo.tdd.dto.PersonDTO;
 import com.levo.tdd.repository.PersonRepository;
 
+@Service
 public class PersonServiceImpl implements PersonService {
 	
 	@Autowired
@@ -14,13 +16,7 @@ public class PersonServiceImpl implements PersonService {
 
 	@Override
 	public PersonDTO createPerson(PersonDTO person) {
-		boolean isSuccessful = personRepository.createPerson(person);
-		
-		if(isSuccessful) {
-			return person;
-		} else {
-			return null;
-		}
+		return personRepository.createPerson(person);
 	}
 
 	@Override

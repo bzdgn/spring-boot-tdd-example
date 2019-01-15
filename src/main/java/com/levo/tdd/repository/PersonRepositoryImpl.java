@@ -2,8 +2,11 @@ package com.levo.tdd.repository;
 
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.levo.tdd.dto.PersonDTO;
 
+@Repository
 public class PersonRepositoryImpl implements PersonRepository {
 
 	@Override
@@ -19,9 +22,9 @@ public class PersonRepositoryImpl implements PersonRepository {
 	}
 
 	@Override
-	public boolean createPerson(PersonDTO person) {
+	public PersonDTO createPerson(PersonDTO person) {
 		// TODO Auto-generated method stub
-		return false;
+		return person;
 	}
 
 	@Override

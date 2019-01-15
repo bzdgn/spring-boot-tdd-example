@@ -8,7 +8,7 @@ public interface PersonRepository {
 	
 	PersonDTO retrievePerson(Long id);
 	List<PersonDTO> retrieveAll();
-	boolean createPerson(PersonDTO person);
+	PersonDTO createPerson(PersonDTO person);
 	PersonDTO updatePerson(PersonDTO person);
 	boolean deletePerson(Long id);
 
