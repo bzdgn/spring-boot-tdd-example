@@ -16,6 +16,7 @@ public class PersonServiceImpl implements PersonService {
 
 	@Override
 	public PersonDTO createPerson(PersonDTO person) {
+		System.out.println("HIT");
 		return personRepository.createPerson(person);
 	}
 
