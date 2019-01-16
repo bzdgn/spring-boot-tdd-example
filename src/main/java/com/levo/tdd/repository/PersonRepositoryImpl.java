@@ -11,32 +11,27 @@ public class PersonRepositoryImpl implements PersonRepository {
 
 	@Override
 	public PersonDTO retrievePerson(Long id) {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException("Method not implemented yet.");
 	}
 
 	@Override
 	public List<PersonDTO> retrieveAll() {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException("Method not implemented yet.");
 	}
 
 	@Override
 	public PersonDTO createPerson(PersonDTO person) {
-		// TODO Auto-generated method stub
-		return person;
+		throw new UnsupportedOperationException("Method not implemented yet.");
 	}
 
 	@Override
 	public PersonDTO updatePerson(PersonDTO person) {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException("Method not implemented yet.");
 	}
 
 	@Override
 	public boolean deletePerson(Long id) {
-		// TODO Auto-generated method stub
-		return false;
+		throw new UnsupportedOperationException("Method not implemented yet.");
 	}
 
 }
