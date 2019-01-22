@@ -45,7 +45,11 @@ You should add this dependency wih the **test** scope as can be seen below. The 
 
 2 The Structure Of Example Web Application
 ------------------------------------------
-
+placeholder<br/>
+placeholder<br/>
+placeholder<br/>
+placeholder<br/>
+placeholder<br/>
 
 [Go back to TOC](#toc)
 
