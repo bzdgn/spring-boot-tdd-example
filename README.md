@@ -9,7 +9,7 @@ The goal of this project to introduce TDD usage with Spring Boot with Mockito.
 TOC
 ---
 - [1 Our Example Web Service](#1-our-example-web-service) <br/>
-- [2 The Structure Of Example Web Application)(#2-the-structure-of-example-web-application) <br/>
+- [2 The Structure Of Example Web Application](#2-the-structure-of-example-web-application) <br/>
 - [3 How To Mock A Dependency](#3-how-to-mock-a-dependency) <br/>
 - [4 How To Test Controller](#4-how-to-test-controller) <br/>
 
