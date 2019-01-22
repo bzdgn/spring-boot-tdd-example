@@ -72,11 +72,11 @@ To make a primitive graphical representation;
 	Controller
 	   ||
 	   ||
-         \/
+           \/
    Service
 	   ||
 	   ||
-         \/
+           \/
    Repository
 ```
 
