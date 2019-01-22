@@ -69,15 +69,7 @@ with basic/trivial CRUD operations. It's components are;
 To make a primitive graphical representation;
 
 ```
-	Controller
-	   ||
-	   ||
-           \/
-   Service
-	   ||
-	   ||
-           \/
-   Repository
+	Controller --> Service --> Repository
 ```
 
 It is important to be aware of the dependency hierarchy of each components. We are using dependency injection.
